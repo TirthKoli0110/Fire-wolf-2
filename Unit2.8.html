@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Colors</title>
+</head>
+<body>
+
+    <h1>HTML Colors</h1>
+
+    <p>HTML colors are used to change:</p>
+    <ul>
+        <li>Background Color</li>
+        <li>Text Color</li>
+        <li>Border Color</li>
+    </ul>
+
+    <hr>
+
+    <h2>Color Formats</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Format</th>
+            <th>Example</th>
+            <th>Output</th>
+        </tr>
+
+        <tr>
+            <td>Color Name</td>
+            <td>Tomato</td>
+            <td style="background-color:Tomato;">Tomato</td>
+        </tr>
+
+        <tr>
+            <td>RGB</td>
+            <td>rgb(255,0,0)</td>
+            <td style="background-color:rgb(255,0,0); color:white;">RGB Red</td>
+        </tr>
+
+        <tr>
+            <td>RGBA</td>
+            <td>rgba(255,0,0,0.5)</td>
+            <td style="background-color:rgba(255,0,0,0.5);">RGBA Red</td>
+        </tr>
+
+        <tr>
+            <td>HEX</td>
+            <td>#FF0000</td>
+            <td style="background-color:#FF0000; color:white;">HEX Red</td>
+        </tr>
+
+        <tr>
+            <td>HSL</td>
+            <td>hsl(0,100%,50%)</td>
+            <td style="background-color:hsl(0,100%,50%); color:white;">HSL Red</td>
+        </tr>
+
+        <tr>
+            <td>HSLA</td>
+            <td>hsla(0,100%,50%,0.5)</td>
+            <td style="background-color:hsla(0,100%,50%,0.5);">HSLA Red</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Background Color</h2>
+
+    <pre>   
+        &lt;p style="background-color:Tomato;"&gt;
+        Hello
+        &lt;/p&gt;
+    </pre>
+
+    <p style="background-color:Tomato;">Hello</p>
+
+    <hr>
+
+    <h2>Text Color</h2>
+
+    <pre>
+        &lt;p style="color:blue;"&gt;
+        Hello
+        &lt;/p&gt;
+    </pre>
+
+    <p style="color:blue;">Hello</p>
+
+    <hr>
+
+    <h2>Border Color</h2>
+
+    <pre>
+        &lt;p style="border:2px solid red;"&gt;
+        Hello
+        &lt;/p&gt;
+    </pre>
+
+    <p style="border:2px solid red; padding:10px;">
+        Hello
+    </p>
+
+    <hr>
+
+    <h2>RGB Color Model</h2>
+
+    <p><b>RGB = Red + Green + Blue</b></p>
+
+    <pre>
+        rgb(red, green, blue)
+    </pre>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Color</th>
+            <th>RGB Value</th>
+            <th>Output</th>
+        </tr>
+
+        <tr>
+            <td>Red</td>
+            <td>rgb(255,0,0)</td>
+            <td style="background-color:rgb(255,0,0); color:white;">Red</td>
+        </tr>
+
+        <tr>
+            <td>Green</td>
+            <td>rgb(0,255,0)</td>
+            <td style="background-color:rgb(0,255,0);">Green</td>
+        </tr>
+
+        <tr>
+            <td>Blue</td>
+            <td>rgb(0,0,255)</td>
+            <td style="background-color:rgb(0,0,255); color:white;">Blue</td>
+        </tr>
+
+        <tr>
+            <td>Black</td>
+            <td>rgb(0,0,0)</td>
+            <td style="background-color:black; color:white;">Black</td>
+        </tr>
+
+        <tr>
+            <td>White</td>
+            <td>rgb(255,255,255)</td>
+            <td style="background-color:white;">White</td>
+        </tr>
+
+        <tr>
+            <td>Gray</td>
+            <td>rgb(120,120,120)</td>
+            <td style="background-color:rgb(120,120,120); color:white;">Gray</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>RGBA</h2>
+
+    <p><b>RGBA = RGB + Alpha</b></p>
+
+    <pre>
+        rgba(255,0,0,0.5)
+    </pre>
+
+    <p style="background-color:rgba(255,0,0,0.5); padding:10px;">
+        RGBA Example (50% Transparent)
+    </p>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Alpha</th>
+            <th>Meaning</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Transparent</td>
+        </tr>
+        <tr>
+            <td>0.5</td>
+            <td>50% Visible</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Fully Visible</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>HEX Colors</h2>
+
+    <pre>
+        #RRGGBB
+    </pre>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Color</th>
+            <th>HEX Code</th>
+            <th>Output</th>
+        </tr>
+
+        <tr>
+            <td>Red</td>
+            <td>#FF0000</td>
+            <td style="background:#FF0000; color:white;">Red</td>
+        </tr>
+
+        <tr>
+            <td>Green</td>
+            <td>#00FF00</td>
+            <td style="background:#00FF00;">Green</td>
+        </tr>
+
+        <tr>
+            <td>Blue</td>
+            <td>#0000FF</td>
+            <td style="background:#0000FF; color:white;">Blue</td>
+        </tr>
+
+        <tr>
+            <td>White</td>
+            <td>#FFFFFF</td>
+            <td style="background:#FFFFFF;">White</td>
+        </tr>
+
+        <tr>
+            <td>Black</td>
+            <td>#000000</td>
+            <td style="background:#000000; color:white;">Black</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>HSL</h2>
+
+    <p><b>HSL = Hue + Saturation + Lightness</b></p>
+
+    <pre>
+        hsl(0,100%,50%)
+    </pre>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <td>Hue</td>
+            <td>0° = Red, 120° = Green, 240° = Blue</td>
+        </tr>
+
+        <tr>
+            <td>Saturation</td>
+            <td>100% = Pure Color, 0% = Gray</td>
+        </tr>
+
+        <tr>
+            <td>Lightness</td>
+            <td>0% = Black, 50% = Normal, 100% = White</td>
+        </tr>
+    </table>
+
+    <p style="background:hsl(0,100%,50%); color:white; padding:10px;">
+        HSL Example
+    </p>
+
+    <hr>
+
+    <h2>HSLA</h2>
+
+    <pre>
+        hsla(0,100%,50%,0.5)
+    </pre>
+
+    <p style="background:hsla(0,100%,50%,0.5); padding:10px;">
+        HSLA Example (Transparent)
+    </p>
+
+</body>
+</html>

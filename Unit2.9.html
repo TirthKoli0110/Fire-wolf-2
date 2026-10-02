@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Links Notes</title>
+</head>
+<body>
+
+    <h1>Part 2: HTML Links</h1>
+
+    <hr>
+
+        <h2>1. Hyperlink</h2>
+
+    <p>Used to connect one webpage to another.</p>
+
+    <pre>
+        &lt;a href="https://example.com"&gt;
+        Visit
+        &lt;/a&gt;
+    </pre>
+
+    <a href="https://example.com">Visit</a>
+
+    <ul>
+        <li><b>&lt;a&gt;</b> → Anchor Tag</li>
+        <li><b>href</b> → Destination URL</li>
+    </ul>
+
+    <hr>
+
+    <h2>2. href Attribute</h2>
+
+    <p>Specifies the URL (destination) of the hyperlink.</p>
+
+    <pre>
+        &lt;a href="https://google.com"&gt;
+        Google
+        &lt;/a&gt;
+    </pre>
+
+    <a href="https://google.com">Google</a>
+
+    <hr>
+
+    <h2>3. target Attribute</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Value</th>
+            <th>Meaning</th>
+        </tr>
+
+        <tr>
+            <td>_self</td>
+            <td>Same tab (Default)</td>
+        </tr>
+
+        <tr>
+            <td>_blank</td>
+            <td>Opens in a New Tab</td>
+        </tr>
+
+        <tr>
+            <td>_parent</td>
+            <td>Parent Frame</td>
+        </tr>
+
+        <tr>
+            <td>_top</td>
+            <td>Full Window</td>
+        </tr>
+    </table>
+
+    <h3>Example</h3>
+
+    <pre>
+        &lt;a href="https://google.com"
+        target="_blank"&gt;
+        Google
+        &lt;/a&gt;
+    </pre>
+
+    <a href="https://google.com" target="_blank">
+        Open Google in New Tab
+    </a>
+
+    <hr>
+
+    <!-- Absolute vs Relative -->
+    <h2>4. Absolute URL vs Relative URL</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Absolute URL</th>
+            <th>Relative URL</th>
+        </tr>
+
+        <tr>
+            <td>Full Web Address</td>
+            <td>File Path</td>
+        </tr>
+
+        <tr>
+            <td>External Website</td>
+            <td>Internal Page</td>
+        </tr>
+
+        <tr>
+            <td>https://google.com</td>
+            <td>about.html</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Image as Link -->
+    <h2>5. Image as a Link</h2>
+
+    <pre>
+        &lt;a href="home.html"&gt;
+
+        &lt;img src="home.png"&gt;
+
+        &lt;/a&gt;
+    </pre>
+
+    <a href="home.html">
+        <img src="home.png" alt="Home" width="100">
+    </a>
+
+    <hr>
+
+    <h2>6. Email Link</h2>
+
+    <pre>
+        &lt;a href="mailto:test@example.com"&gt;
+        Send Email
+        &lt;/a&gt;
+    </pre>
+
+    <a href="mailto:test@example.com">
+        Send Email
+    </a>
+
+    <hr>
+
+    <!-- Button Link -->
+    <h2>7. Button Link</h2>
+
+    <pre>   
+        &lt;button
+        onclick="location.href='home.html'"&gt;
+        Home
+        &lt;/button&gt;
+    </pre>
+
+    <button onclick="location.href='home.html'">
+        Home
+    </button>
+
+    <hr>
+
+    <!-- title Attribute -->
+    <h2>8. title Attribute</h2>
+
+    <p>The <b>title</b> attribute displays a tooltip when the mouse pointer is placed over a link.</p>
+
+    <pre>
+        &lt;a href="page.html"
+        title="Go to Page"&gt;
+        Visit
+        &lt;/a&gt;
+    </pre>
+
+    <a href="page.html" title="Go to Page">
+        Hover over this link
+    </a>
+
+</body>
+</html>

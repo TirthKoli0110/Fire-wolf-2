@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Documents</title>
+</head>
+<body>
+
+    <h1>5. HTML History</h1>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Year</th>
+            <th>Development</th>
+        </tr>
+        <tr>
+            <td>1989</td>
+            <td>World Wide Web invented</td>
+        </tr>
+        <tr>
+            <td>1991</td>
+            <td>HTML invented</td>
+        </tr>
+        <tr>
+            <td>1995</td>
+            <td>HTML 2.0</td>
+        </tr>
+        <tr>
+            <td>1999</td>
+            <td>HTML 4.01</td>
+        </tr>
+        <tr>
+            <td>2014</td>
+            <td>HTML5 Recommendation</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>6. HTML Document Rules</h1>
+
+    <ul>
+        <li>Starts with <strong>&lt;!DOCTYPE html&gt;</strong></li>
+        <li>Root element: <strong>&lt;html&gt;</strong></li>
+        <li>Visible content is placed inside <strong>&lt;body&gt;</strong></li>
+    </ul>
+
+    <hr>
+
+    <!-- 7. DOCTYPE -->
+    <h1>7. DOCTYPE</h1>
+
+    <pre>
+&lt;!DOCTYPE html&gt;
+    </pre>
+
+    <h2>Purpose</h2>
+
+    <ul>
+        <li>Declares HTML5 document.</li>
+        <li>Written at the top of the HTML file.</li>
+        <li>Written only once.</li>
+        <li>Helps the browser display the webpage correctly.</li>
+    </ul>
+
+    <hr>
+
+    <h1>8. HTML Headings</h1>
+
+    <h1>Largest Heading (h1)</h1>
+    <h2>Heading (h2)</h2>
+    <h3>Heading (h3)</h3>
+    <h4>Heading (h4)</h4>
+    <h5>Heading (h5)</h5>
+    <h6>Smallest Heading (h6)</h6>
+
+    <ul>
+        <li><strong>&lt;h1&gt;</strong> → Most important heading.</li>
+        <li><strong>&lt;h6&gt;</strong> → Least important heading.</li>
+    </ul>
+
+    <hr>
+
+    <h1>9. Paragraph</h1>
+
+    <pre>
+        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    </pre>
+
+    <p>This is a paragraph.</p>
+
+    <ul>
+        <li>Block-level element.</li>
+        <li>Starts on a new line.</li>
+        <li>Browser automatically adds spacing.</li>
+    </ul>
+
+    <hr>
+
+   <h1>10. Links</h1>
+
+    <pre>
+        &lt;a href="https://www.itm.ac.in"&gt;Visit ITM&lt;/a&gt;
+    </pre>
+
+    <a href="https://www.itm.ac.in" target="_blank">Visit ITM</a>
+
+    <ul>
+        <li><strong>&lt;a&gt;</strong> → Anchor tag.</li>
+        <li><strong>href</strong> → Specifies the destination URL.</li>
+    </ul>
+
+    <hr>
+
+    <h1>11. Images</h1>
+
+    <pre>
+        &lt;img src="image.jpg" alt="Image"&gt;
+    </pre>
+
+    <h2>Important Attributes</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Attribute</th>
+            <th>Purpose</th>
+        </tr>
+        <tr>
+            <td>src</td>
+            <td>Image location</td>
+        </tr>
+        <tr>
+            <td>alt</td>
+            <td>Alternative text</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>Image width</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>Image height</td>
+        </tr>
+    </table>
+
+    <h2>Example</h2>
+
+    <pre>
+    &lt;img src="image.jpg"
+     alt="Girl"
+     width="300"
+     height="400"&gt;
+    </pre>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjvVayeMnRAto6N_BnVNmqF3mu8BAUWIWpdygA5ybzHg&s=10" alt="cr7" width="400" height="500">
+
+    <hr>
+
+    <!-- 12. View HTML Source -->
+    <h1>12. View HTML Source</h1>
+
+    <h2>View Source</h2>
+
+    <p><strong>Shortcut:</strong> Ctrl + U</p>
+
+    <h2>Inspect</h2>
+
+    <p>Right Click → <strong>Inspect</strong></p>
+
+    <p>Inspect shows the HTML and CSS of the webpage.</p>
+
+    <hr>
+
+    <!-- 13. Nested Elements -->
+    <h1>13. Nested Elements</h1>
+
+    <p>HTML elements can be placed inside other HTML elements.</p>
+
+    <pre>
+&lt;html&gt;
+
+&lt;body&gt;
+
+    &lt;h1&gt;Heading&lt;/h1&gt;
+
+    &lt;p&gt;Paragraph&lt;/p&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+    </pre>
+
+    <h2>Example Output</h2>
+
+    <h3>Heading</h3>
+    <p>Paragraph</p>
+
+    <p><strong>Note:</strong> Always close tags in the correct order.</p>
+
+    <hr>
+
+    <!-- 14. End Tags -->
+    <h1>14. End Tags</h1>
+
+    <pre>
+&lt;p&gt;Hello&lt;/p&gt;
+    </pre>
+
+    <p>Hello</p>
+
+    <h2>Missing End Tags May Cause</h2>
+
+    <ul>
+        <li>Layout problems</li>
+        <li>Rendering errors</li>
+        <li>Validation errors</li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Complete Revision Sheet (Part 2)</title>
+</head>
+<body>
+
+    <h1>HTML Complete Revision Sheet (Part 2)</h1>
+
+    <hr>
+
+    <h2>11. HTML Images</h2>
+
+    <h3>Image Example</h3>
+
+    <img src="image.jpg"
+         alt="Image"
+         width="300"
+         height="200">
+
+    <h3>Important Attributes</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Attribute</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr><td>src</td><td>Image Location</td></tr>
+        <tr><td>alt</td><td>Alternative Text</td></tr>
+        <tr><td>width</td><td>Image Width</td></tr>
+        <tr><td>height</td><td>Image Height</td></tr>
+    </table>
+
+    <h3>Image as Link</h3>
+
+    <a href="home.html">
+        <img src="logo.png" alt="Logo" width="120">
+    </a>
+
+    <hr>
+
+    <h2>12. HTML Forms</h2>
+
+    <pre>   
+        &lt;form action="" method=""&gt;
+        ...
+        &lt;/form&gt;
+    </pre>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Attribute</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr><td>action</td><td>Submission URL</td></tr>
+        <tr><td>method</td><td>GET or POST</td></tr>
+    </table>
+
+    <h3>Methods</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>GET</th>
+            <th>POST</th>
+        </tr>
+
+        <tr>
+            <td>Data sent in URL</td>
+            <td>Data sent in Request Body</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>13. Input Types</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Type</th>
+            <th>Use</th>
+        </tr>
+
+        <tr><td>text</td><td>Text</td></tr>
+        <tr><td>password</td><td>Password</td></tr>
+        <tr><td>email</td><td>Email</td></tr>
+        <tr><td>number</td><td>Number</td></tr>
+        <tr><td>date</td><td>Date</td></tr>
+        <tr><td>color</td><td>Color Picker</td></tr>
+        <tr><td>range</td><td>Slider</td></tr>
+        <tr><td>radio</td><td>Single Choice</td></tr>
+        <tr><td>checkbox</td><td>Multiple Choices</td></tr>
+        <tr><td>submit</td><td>Submit Form</td></tr>
+    </table>
+
+    <hr>
+
+    <h2>14. Form Elements</h2>
+
+    <form>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+
+        <label>Course:</label><br>
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <h3>Important Form Elements</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Element</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr><td>&lt;form&gt;</td><td>Creates Form</td></tr>
+        <tr><td>&lt;label&gt;</td><td>Input Label</td></tr>
+        <tr><td>&lt;input&gt;</td><td>Input Field</td></tr>
+        <tr><td>&lt;textarea&gt;</td><td>Multi-line Text</td></tr>
+        <tr><td>&lt;select&gt;</td><td>Drop-down List</td></tr>
+        <tr><td>&lt;option&gt;</td><td>Drop-down Option</td></tr>
+        <tr><td>&lt;button&gt;</td><td>Button</td></tr>
+    </table>
+
+    <hr>
+
+    <h2>15. Radio vs Checkbox</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Radio</th>
+            <th>Checkbox</th>
+        </tr>
+
+        <tr>
+            <td>One Option</td>
+            <td>Multiple Options</td>
+        </tr>
+
+        <tr>
+            <td>Uses Same Name</td>
+            <td>Independent Selection</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>16. HTML5 Semantic Elements</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Tag</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr><td>&lt;header&gt;</td><td>Header</td></tr>
+        <tr><td>&lt;nav&gt;</td><td>Navigation</td></tr>
+        <tr><td>&lt;main&gt;</td><td>Main Content</td></tr>
+        <tr><td>&lt;section&gt;</td><td>Section</td></tr>
+        <tr><td>&lt;article&gt;</td><td>Article</td></tr>
+        <tr><td>&lt;aside&gt;</td><td>Sidebar</td></tr>
+        <tr><td>&lt;footer&gt;</td><td>Footer</td></tr>
+    </table>
+
+    <h3>Advantages</h3>
+
+    <ul>
+        <li>Better SEO</li>
+        <li>Improves Accessibility</li>
+        <li>Easy to Read</li>
+        <li>Better Page Structure</li>
+    </ul>
+
+    <hr>
+
+    <h2>17. Multimedia</h2>
+
+    <h3>Video</h3>
+
+    <video controls width="300" poster="poster.jpg">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <h4>Video Attributes</h4>
+
+    <ul>
+        <li>controls</li>
+        <li>autoplay</li>
+        <li>loop</li>
+        <li>muted</li>
+        <li>poster</li>
+    </ul>
+
+    <h3>Audio</h3>
+
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <hr>
+
+    <h2>18. Drag & Drop</h2>
+
+    <pre>
+        draggable="true"
+    </pre>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Event</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr><td>ondragstart</td><td>Starts Dragging</td></tr>
+        <tr><td>ondragover</td><td>Allows Dropping</td></tr>
+        <tr><td>ondrop</td><td>Drops the Element</td></tr>
+    </table>
+
+    <hr>
+
+    <h2>19. XHTML Rules</h2>
+
+    <ul>
+        <li>Use lowercase tags.</li>
+        <li>Close every tag.</li>
+        <li>Properly nest elements.</li>
+        <li>Write attribute values in quotes.</li>
+        <li>Follow proper document structure.</li>
+    </ul>
+
+    <hr>
+
+    <h2>20. Meta Tags</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Meta Tag</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr>
+            <td>&lt;meta charset="UTF-8"&gt;</td>
+            <td>Character Encoding</td>
+        </tr>
+
+        <tr>
+            <td>&lt;meta name="viewport"&gt;</td>
+            <td>Responsive Design</td>
+        </tr>
+
+        <tr>
+            <td>&lt;meta name="description"&gt;</td>
+            <td>Page Description</td>
+        </tr>
+
+        <tr>
+            <td>&lt;meta name="author"&gt;</td>
+            <td>Author Information</td>
+        </tr>
+
+        <tr>
+            <td>&lt;meta http-equiv="refresh"&gt;</td>
+            <td>Auto Refresh</td>
+        </tr>
+    </table>
+
+</body>
+</html>

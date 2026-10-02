@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML- Formatting & Other Elements</title>
+</head>
+<body>
+
+    <h1>4. Important Differences</h1>
+
+    <h2>&lt;b&gt; vs &lt;strong&gt;</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>&lt;b&gt;</th>
+            <th>&lt;strong&gt;</th>
+        </tr>
+        <tr>
+            <td>Bold only</td>
+            <td>Bold + Important meaning</td>
+        </tr>
+    </table>
+
+    <p>
+        <b>This is Bold Text</b><br>
+        <strong>This is Strong (Important) Text</strong>
+    </p>
+
+    <hr>
+
+    <h2>&lt;i&gt; vs &lt;em&gt;</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>&lt;i&gt;</th>
+            <th>&lt;em&gt;</th>
+        </tr>
+        <tr>
+            <td>Italic only</td>
+            <td>Italic + Emphasis</td>
+        </tr>
+    </table>
+
+    <p>
+        <i>This is Italic Text</i><br>
+        <em>This is Emphasized Text</em>
+    </p>
+
+    <hr>
+
+    <h2>&lt;del&gt; vs &lt;ins&gt;</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>&lt;del&gt;</th>
+            <th>&lt;ins&gt;</th>
+        </tr>
+        <tr>
+            <td>Deleted Text</td>
+            <td>Inserted Text</td>
+        </tr>
+    </table>
+
+    <p>
+        <del>Old Price ₹500</del><br>
+        <ins>New Price ₹400</ins>
+    </p>
+
+    <hr>
+
+    <h1>5. &lt;blockquote&gt;</h1>
+
+    <p><strong>Purpose:</strong> Displays a long quotation.</p>
+
+    <pre>
+        &lt;blockquote cite="https://example.com"&gt;
+        This is a quotation.
+        &lt;/blockquote&gt;
+    </pre>
+
+    <blockquote cite="https://example.com">
+        This is a quotation. It is displayed as a separate block and is automatically indented by the browser.
+    </blockquote>
+
+    <h3>Features</h3>
+
+    <ul>
+        <li>Block-level element</li>
+        <li>Browser indents the text</li>
+        <li><strong>cite</strong> stores the source URL</li>
+    </ul>
+
+    <p><strong>Remember:</strong> Big Quote 📖</p>
+
+    <hr>
+
+    <h1>6. &lt;q&gt;</h1>
+
+    <p><strong>Purpose:</strong> Displays a short quotation.</p>
+
+    <pre>
+        &lt;p&gt;He said &lt;q&gt;Hello&lt;/q&gt;&lt;/p&gt;
+    </pre>
+
+    <p>He said <q>Hello</q>.</p>
+
+    <p>The browser automatically adds quotation marks.</p>
+
+    <h2>&lt;q&gt; vs &lt;blockquote&gt;</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>&lt;q&gt;</th>
+            <th>&lt;blockquote&gt;</th>
+        </tr>
+        <tr>
+            <td>Short quote</td>
+            <td>Long quote</td>
+        </tr>
+        <tr>
+            <td>Inline</td>
+            <td>Block-level</td>
+        </tr>
+        <tr>
+            <td>Inside sentence</td>
+            <td>Separate block</td>
+        </tr>
+        <tr>
+            <td>Adds quotation marks</td>
+            <td>Indents text</td>
+        </tr>
+    </table>
+
+    <p><strong>Remember:</strong> Q = Quick Quote</p>
+
+    <hr>
+
+    <h1>7. &lt;abbr&gt;</h1>
+
+    <p><strong>Purpose:</strong> Defines an abbreviation.</p>
+
+    <pre>
+        &lt;abbr title="World Health Organization"&gt;
+        WHO
+        &lt;/abbr&gt;
+    </pre>
+
+    <p>
+        <abbr title="World Health Organization">WHO</abbr>
+    </p>
+
+    <h3>Examples</h3>
+
+    <ul>
+        <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+        <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+        <li><abbr title="World Health Organization">WHO</abbr></li>
+        <li><abbr title="Automated Teller Machine">ATM</abbr></li>
+        <li><abbr title="As Soon As Possible">ASAP</abbr></li>
+    </ul>
+
+    <p><strong>Note:</strong> Hover the mouse over the abbreviation to see its full form.</p>
+
+    <hr>
+
+    <h1>8. &lt;address&gt;</h1>
+
+    <p><strong>Purpose:</strong> Displays contact information.</p>
+
+    <pre>
+        &lt;address&gt;
+        Written by John Doe&lt;br&gt;
+        Example.com
+        &lt;/address&gt;
+    </pre>
+
+    <address>
+        Written by John Doe<br>
+        Example.com<br>
+        Email: john@example.com<br>
+        Phone: +91 9876543210
+    </address>
+
+    <p>Can include:</p>
+
+    <ul>
+        <li>Address</li>
+        <li>Email</li>
+        <li>Website</li>
+        <li>Phone Number</li>
+        <li>Social Media</li>
+    </ul>
+
+    <hr>
+
+    <!-- 9. cite -->
+    <h1>9. &lt;cite&gt;</h1>
+
+    <p><strong>Purpose:</strong> Specifies the title of a creative work.</p>
+
+    <pre>
+        &lt;p&gt;       
+        &lt;cite&gt;The Scream&lt;/cite&gt;
+        by Edvard Munch
+        &lt;/p&gt;
+    </pre>
+
+    <p><cite>The Scream</cite> by Edvard Munch</p>
+
+    <h3>Can be used for:</h3>
+
+    <ul>
+        <li>✅ Book</li>
+        <li>✅ Movie</li>
+        <li>✅ Song</li>
+        <li>✅ Painting</li>
+        <li>❌ Person's Name</li>
+    </ul>
+
+    <hr>
+
+    <!-- 10. bdo -->
+    <h1>10. &lt;bdo&gt;</h1>
+
+    <p><strong>Full Form:</strong> Bi-Directional Override</p>
+
+    <p><strong>Purpose:</strong> Changes the direction of text.</p>
+
+    <pre>
+        &lt;bdo dir="rtl"&gt;
+        Hello
+        &lt;/bdo&gt;
+    </pre>
+
+    <h3>Example</h3>
+
+    <p>Normal Text: Hello</p>
+
+    <p>RTL Text: <bdo dir="rtl">Hello</bdo></p>
+
+    <p>LTR Text: <bdo dir="ltr">Hello</bdo></p>
+
+    <h3>Values</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Value</th>
+            <th>Meaning</th>
+        </tr>
+        <tr>
+            <td>rtl</td>
+            <td>Right → Left</td>
+        </tr>
+        <tr>
+            <td>ltr</td>
+            <td>Left → Right</td>
+        </tr>
+    </table>
+
+    <h3>Used for Languages</h3>
+
+    <ul>
+        <li>Arabic</li>
+        <li>Hebrew</li>
+        <li>Persian</li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Lists, Tables, Images & Forms</title>
+</head>
+<body>
+
+    <h1>HTML Lists, Tables, Images & Forms</h1>
+
+    <hr>
+
+    <h2>1. Relative URL</h2>
+
+    <p><b>Definition:</b> A Relative URL links to files within the same website.</p>
+
+    <h3>Examples</h3>
+
+    <pre>&lt;a href="index.html"&gt;Home&lt;/a&gt;</pre>
+    <a href="index.html">Home</a><br><br>
+
+    <pre>&lt;a href="pages/about.html"&gt;About&lt;/a&gt;</pre>
+    <a href="pages/about.html">About</a><br><br>
+
+    <pre>&lt;a href="../index.html"&gt;Home&lt;/a&gt;</pre>
+    <a href="../index.html">Parent Folder</a>
+
+    <h3>Relative URL vs Absolute URL</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Relative URL</th>
+            <th>Absolute URL</th>
+        </tr>
+        <tr>
+            <td>Internal Link</td>
+            <td>External Link</td>
+        </tr>
+        <tr>
+            <td>No Domain Name</td>
+            <td>Complete Web Address</td>
+        </tr>
+        <tr>
+            <td>about.html</td>
+            <td>https://example.com/about.html</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>2. HTML Lists</h2>
+
+    <h3>List Types</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Tag</th>
+            <th>Purpose</th>
+        </tr>
+        <tr>
+            <td>&lt;ul&gt;</td>
+            <td>Unordered List</td>
+        </tr>
+        <tr>
+            <td>&lt;ol&gt;</td>
+            <td>Ordered List</td>
+        </tr>
+        <tr>
+            <td>&lt;dl&gt;</td>
+            <td>Description List</td>
+        </tr>
+    </table>
+
+    <h3>Unordered List</h3>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>Description List</h3>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Styles Web Pages</dd>
+    </dl>
+
+    <h3>Difference</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>&lt;ul&gt;</th>
+            <th>&lt;ol&gt;</th>
+            <th>&lt;dl&gt;</th>
+        </tr>
+        <tr>
+            <td>Bullets</td>
+            <td>Numbers</td>
+            <td>Term + Description</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>3. HTML Tables</h2>
+
+    <h3>Table Tags</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Tag</th>
+            <th>Purpose</th>
+        </tr>
+        <tr><td>&lt;table&gt;</td><td>Table</td></tr>
+        <tr><td>&lt;tr&gt;</td><td>Table Row</td></tr>
+        <tr><td>&lt;th&gt;</td><td>Header Cell</td></tr>
+        <tr><td>&lt;td&gt;</td><td>Data Cell</td></tr>
+        <tr><td>&lt;caption&gt;</td><td>Table Title</td></tr>
+        <tr><td>&lt;thead&gt;</td><td>Header Section</td></tr>
+        <tr><td>&lt;tbody&gt;</td><td>Body Section</td></tr>
+        <tr><td>&lt;tfoot&gt;</td><td>Footer Section</td></tr>
+    </table>
+
+    <h3>Basic Table</h3>
+
+    <table border="1" cellpadding="8">
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rahul</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>&lt;th&gt; vs &lt;td&gt;</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>&lt;th&gt;</th>
+            <th>&lt;td&gt;</th>
+        </tr>
+        <tr>
+            <td>Header</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <td>Bold</td>
+            <td>Normal</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>4. HTML Images</h2>
+
+    <h3>Image Example</h3>
+
+    <img src="flower.jpg" alt="Flower" width="150">
+
+    <h3>Image Attributes</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Attribute</th>
+            <th>Purpose</th>
+        </tr>
+        <tr><td>src</td><td>Image Location</td></tr>
+        <tr><td>alt</td><td>Alternative Text</td></tr>
+        <tr><td>width</td><td>Width</td></tr>
+        <tr><td>height</td><td>Height</td></tr>
+    </table>
+
+    <h3>Image as Link</h3>
+
+    <a href="home.html">
+        <img src="home.png" alt="Home" width="100">
+    </a>
+
+    <h3>Image Formats</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Format</th>
+            <th>Extension</th>
+        </tr>
+        <tr><td>JPEG</td><td>.jpg / .jpeg</td></tr>
+        <tr><td>PNG</td><td>.png</td></tr>
+        <tr><td>GIF</td><td>.gif</td></tr>
+        <tr><td>SVG</td><td>.svg</td></tr>
+        <tr><td>ICO</td><td>.ico</td></tr>
+        <tr><td>APNG</td><td>.apng</td></tr>
+    </table>
+
+    <hr>
+
+    <h2>5. HTML Forms</h2>
+
+    <form action="/submit.php" method="post">
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="fname"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email"><br><br>
+
+        <label>Age:</label><br>
+        <input type="number"><br><br>
+
+        <label>Date:</label><br>
+        <input type="date"><br><br>
+
+        <label>Upload File:</label><br>
+        <input type="file"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Music
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <h3>Form Attributes</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Attribute</th>
+            <th>Purpose</th>
+        </tr>
+        <tr><td>action</td><td>Submission URL</td></tr>
+        <tr><td>method</td><td>GET / POST</td></tr>
+        <tr><td>id</td><td>Form ID</td></tr>
+        <tr><td>autocomplete</td><td>Auto Fill</td></tr>
+    </table>
+
+    <h3>GET vs POST</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>GET</th>
+            <th>POST</th>
+        </tr>
+        <tr>
+            <td>Data in URL</td>
+            <td>Data in Request Body</td>
+        </tr>
+        <tr>
+            <td>Used for Search</td>
+            <td>Used for Submitting Data</td>
+        </tr>
+    </table>
+
+    <h3>Input Types</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Type</th>
+            <th>Purpose</th>
+        </tr>
+        <tr><td>text</td><td>Text</td></tr>
+        <tr><td>password</td><td>Password</td></tr>
+        <tr><td>email</td><td>Email</td></tr>
+        <tr><td>number</td><td>Number</td></tr>
+        <tr><td>radio</td><td>One Choice</td></tr>
+        <tr><td>checkbox</td><td>Multiple Choices</td></tr>
+        <tr><td>file</td><td>Upload File</td></tr>
+        <tr><td>date</td><td>Select Date</td></tr>
+        <tr><td>submit</td><td>Submit Form</td></tr>
+    </table>
+
+    <h3>Radio vs Checkbox</h3>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Radio</th>
+            <th>Checkbox</th>
+        </tr>
+        <tr>
+            <td>One Option</td>
+            <td>Multiple Options</td>
+        </tr>
+        <tr>
+            <td>type="radio"</td>
+            <td>type="checkbox"</td>
+        </tr>
+    </table>
+
+</body>
+</html>

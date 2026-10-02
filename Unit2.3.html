@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Notes - Part 3</title>
+</head>
+<body>
+
+    <h1>15. HTML is Not Case Sensitive</h1>
+
+    <p>Both of the following examples work:</p>
+
+    <h2>Uppercase Tags</h2>
+
+    <pre>
+        &lt;P&gt;Hello&lt;/P&gt;
+    </pre>
+
+    <h2>Lowercase Tags</h2>
+
+    <pre>
+        &lt;p&gt;Hello&lt;/p&gt;
+    </pre>
+
+    <p><strong>Recommendation:</strong> Always use lowercase HTML tags.</p>
+
+    <hr>
+
+    <h1>16. HTML Attributes</h1>
+
+    <p>Attributes provide extra information about HTML elements.</p>
+
+    <h2>Syntax</h2>
+
+    <pre>
+        &lt;tag attribute="value"&gt;
+    </pre>
+
+    <h2>Example</h2>
+
+    <pre>
+        &lt;a href="https://example.com"&gt;
+        Visit
+        &lt;/a&gt;
+    </pre>
+
+    <a href="https://example.com" target="_blank">Visit</a>
+
+    <hr>
+
+     <h1>17. Important Attributes</h1>
+
+     <h2>1. href</h2>
+
+    <p>Specifies the destination of a hyperlink.</p>
+
+    <pre>
+        &lt;a href="https://example.com"&gt;
+        Visit
+        &lt;/a&gt;
+    </pre>
+
+    <a href="https://example.com" target="_blank">Visit Example</a>
+
+    <hr>
+
+    <!-- src -->
+    <h2>2. src</h2>
+
+    <p>Specifies the location of an image.</p>
+
+    <pre>
+        &lt;img src="image.jpg"&gt;
+    </pre>
+
+    <img src="image.jpg" alt="Sample Image" width="200">
+
+    <h3>URL Types</h3>
+
+    <ul>
+        <li><strong>Absolute URL</strong> → Points to an external website.</li>
+        <li><strong>Relative URL</strong> → Points to a file within the same website.</li>
+    </ul>
+
+    <hr>
+
+    <h2>3. width &amp; height</h2>
+
+    <p>Sets the image size.</p>
+
+    <pre>
+        &lt;img src="image.jpg"
+        width="300"
+        height="400"&gt;
+    </pre>
+
+    <img src="image.jpg" alt="Image" width="300" height="400">
+
+    <hr>
+
+    <h2>4. alt</h2>
+
+    <p>Displays alternative text if the image cannot be loaded and improves accessibility.</p>
+
+    <pre>
+        &lt;img src="image.jpg"
+        alt="Nature"&gt;
+    </pre>
+
+    <img src="image.jpg" alt="Nature" width="250">
+
+    <hr>
+
+    <h2>5. style</h2>
+
+    <p>The <strong>style</strong> attribute is used for inline CSS.</p>
+
+    <pre>
+        &lt;p style="color:red;"&gt;
+        Hello
+        &lt;/p&gt;
+    </pre>
+
+    <p style="color:red;">Hello</p>
+
+    <h3>Used For</h3>
+
+    <ul>
+        <li>Text Color</li>
+        <li>Font</li>
+        <li>Font Size</li>
+        <li>Margin</li>
+    </ul>
+
+    <hr>
+
+    <!-- lang -->
+    <h2>6. lang</h2>
+
+    <p>Specifies the language of the webpage.</p>
+
+    <pre>
+        &lt;html lang="en"&gt;
+    </pre>
+
+    <h3>Example</h3>
+
+    <pre>
+        &lt;html lang="en-US"&gt;
+    </pre>
+
+    <hr>
+
+    <h2>7. title</h2>
+
+    <p>The <strong>title</strong> attribute displays a tooltip when the mouse pointer is placed over an element.</p>
+
+    <pre>
+        &lt;p title="Information"&gt;
+        Hover me
+        &lt;/p&gt;
+    </pre>
+
+    <p title="Information">Hover your mouse over this text.</p>
+
+    
+</body>
+</html>
